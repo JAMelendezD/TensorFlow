@@ -54,12 +54,21 @@ Now the network is ready to give an answer it takes those final weights and mult
   <img width="800" src="./media/differences.png">
 </p>
 
-finally since it is a binary network we apply the sigmoid function to get our particular result. If we get a result greater than 0.5 the prediction is a cat if it is less that 0.5 then we get a prediction of a dog.
+finally since it is a binary network we apply the sigmoid function to get our particular result. If we get a result greater than 0.5 the prediction is a cat if it is less that 0.5 then we get a prediction of a dog. 
 
 <p align="center">
   <img width="800" src="./media/results.png">
 </p>
 
+We can see the importance of the weights and the sigmoid function in our neural network, without this, the distinction of the animals from just the convolutional output would be impossible.
+
 # Raspberry Pi  
+
+When working with neural networks there is always a question in the back of everyones mind, How deep can we go? The answer to that question depends on many aspects, in particular computation power and expected results.
+
+<p align="center">
+  <img width="800" src="./media/xkcd.png">
+</p>
+
 
 The folder CDP consists of a bigger model with cats, dogs and persons. The network was optimized on a gpu with enough parameters so it has a consistent frame rate in a raspberry pi. The main purpose is to run camara.ipynb as a .py file in the raspberry with a webcam. The output is live video that classifies the given input into the categories. (It was trained with persons doing actions such as applauding, writing, etc).  
