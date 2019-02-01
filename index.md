@@ -48,7 +48,7 @@ We can then keep applying convolutional layers to focus in different characteris
   <img width="600" src="./media/weights.png">
 </p>
 
-Now the network is ready to give an answer it takes those final weights and multiplies them with the input. Here is the diferences of a cat and a dog in this final step before the weights and after the weights. 
+Now the network is ready to give an answer it takes those final weights and multiplies them with the input. Here is the diferences of a cat and a dog in this final step before the weights and after the weights. The blue dots represent the dog and the red ones the cat. 
 
 <p align="center">
   <img width="800" src="./media/differences.png">
@@ -57,7 +57,7 @@ Now the network is ready to give an answer it takes those final weights and mult
 finally since it is a binary network we apply the sigmoid function to get our particular result. If we get a result greater than 0.5 the prediction is a cat if it is less that 0.5 then we get a prediction of a dog.
 
 <p align="center">
-  <img width="800" src="./media/result.png">
+  <img width="800" src="./media/results.png">
 </p>
 
 # Raspberry Pi  
