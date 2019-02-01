@@ -27,7 +27,13 @@ So far we can see that for training on an image database we normally use a deep 
 The idea behind convolutional neural networks sometimes is hard to picture so the purpose of this scripts is to get an introduction into images and openCV to then visualize the process behind convolutional neural networks. We start with our previously trained model of cats and dogs but this time our objective is the intermediate steps not the final prediction. We know convolutional layers are based on filters.
 
 <p align="center">
-  <img width="500" src="./media/filters.png">
+  <img width="400" src="./media/filters.png">
+</p>
+
+Filters are just an array of numbers that we can visualzie with colors in the same way we do with an image, this set of numbers are optimize during the training of the network. We apply the filters to the images to extract particular characteristics for example applying the previous filter to an image of a dog we obtain:
+
+<p align="center">
+  <img width="400" src="./media/featuremap.png">
 </p>
 
 # Raspberry Pi  
