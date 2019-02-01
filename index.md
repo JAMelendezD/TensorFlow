@@ -2,8 +2,9 @@
 
 This is a trained network to distinguish written digets from 0 to 9 from any image. The notebook loads the model (99.17% accuracy) trained with the MNIST dataset. Scripts with the model and the training can be found. Three example images are provided to test the network, the images or not from the trainig set nor the testing set. To test it images have to be written on a black background with a white brush.
 
-![image-title-here](/media/dog.jpg){:height="20%" width="20%" .center-image}
-![image-title-here](/media/cat.jpg){:height="20%" width="20%"}
+<p align="center">
+  <img width="460" height="300" src="/media/dog.jpg">
+</p>
 
 # Cats and Dogs
 
