@@ -6,7 +6,7 @@ This is a trained network to distinguish written digets from 0 to 9 from any ima
   <img width="800" src="./media/mnist.png">
 </p>
 
-# Cats and Dogs
+# Dogs and Cats
 
 This is a trained network to distinguish between cats and dogs from any image. The notebook loads the model (85% accuracy) trained with the kaggle dataset. Scripts with the actual network and data pre-processing can also be found. Two example images are provided to test the network, the images or not from the trainig set nor the validation set.
 
@@ -17,6 +17,12 @@ This is a trained network to distinguish between cats and dogs from any image. T
 
 
 # Visualization
+
+So far we can see that for training on an image database we normally use a deep convolutional neural network were we can also conbine dense layers at the end before the prediction. This method has provided a very effective way to train neural networks, in fact there exists pre-trained nets based on this idea for example the VGG16.
+
+<p align="center">
+  <img width="200" height="200" src="./media/vgg16.jpg">
+</p>
 
 The purpose of this scripts is to get an introduction into images and openCV to then visualize the process behind convolutional neural networks.
 
