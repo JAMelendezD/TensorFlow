@@ -39,9 +39,14 @@ Filters are just an array of numbers that we can visualzie with colors in the sa
 Now instead of one image we have a number of images equal to the number of filters these new images are normally refered as feature-maps. We can also visualize this as being a 3-dimensional set of data.
 
 <p align="center">
-  <img width="400" src="./media/3Dout.png">
+  <img width="400" src="./media/3dout.png">
 </p>
 
+We can then keep applying convolutional layers to focus in different characteristics that are unique to each feature map. This process is applied multiple times with intermidiate pooling layers that decrease the size of the outputs until eventually we are left with a particular image size that we want to flatten to then pass it through a dense layer. This dense layer consist on weights and biases in our particular case this were our dense layer weights:
+
+<p align="center">
+  <img width="400" src="./media/weights.png">
+</p>
 
 # Raspberry Pi  
 
