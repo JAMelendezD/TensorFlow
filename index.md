@@ -69,8 +69,11 @@ When working with neural networks there is always a question in the back of ever
 <p align="center">
   <img width="800" src="./media/xkcd.png">
 </p>
-<sup>[1](#myfootnote1)</sup>
+<p align="right">
+  <sup>[1](#footnote1)</sup>
+</p>
+
 
 As we can see our cat-dog network is optimized for performing better results that the raspberry network this is simply because of computation power. Since for the raspberry proyect we expect to determine Persons, cats and dogs from live video using a logitech camera, due to limitations in the processing power we design a small network compared to the cat-dog to achieve higher framerates in the rapberry. The main purpose is to run camara.ipynb as a .py file in the raspberry Pi with a webcam, to get live video that classifies the given input into the categories. (It was trained with persons doing actions such as applauding, writing, etc).  
 
-<a name="myfootnote1">1</a>:Heloooooooooo
+<a name="footnote1">1</a>:To learn how to do this graphs you can visit:[I'm an inline-style link with title](https://www.google.com "Google's Homepage") 
