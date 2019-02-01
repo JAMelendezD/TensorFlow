@@ -39,7 +39,7 @@ Filters are just an array of numbers that we can visualzie with colors in the sa
 Now instead of one image we have a number of images equal to the number of filters these new images are normally refered as feature-maps. We can also visualize this as being a 3-dimensional set of data one for the dog (left) and one for the cat (right) we can already begin to see the diferences of a cat an a dog to the eyes of the network.
 
 <p align="center">
-  <img width="700" src="./media/3dout.png">
+  <img width="800" src="./media/3dout.png">
 </p>
 
 We can then keep applying convolutional layers to focus in different characteristics that are unique to each feature map. This process is applied multiple times with intermidiate pooling layers that decrease the size of the outputs until eventually we are left with a particular image size that we want to flatten to then pass it through a dense layer. This dense layer consist on weights and biases in our particular case this were our dense layer weights:
@@ -51,7 +51,13 @@ We can then keep applying convolutional layers to focus in different characteris
 Now the network is ready to give an answer it takes those final weights and multiplies them with the input. Here is the diferences of a cat and a dog in this final step before the weights and after the weights. 
 
 <p align="center">
-  <img width="600" src="./media/differences.png">
+  <img width="800" src="./media/differences.png">
+</p>
+
+finally since it is a binary network we apply the sigmoid function to get our particular result. If we get a result greater than 0.5 the prediction is a cat if it is less that 0.5 then we get a prediction of a dog.
+
+<p align="center">
+  <img width="800" src="./media/result.png">
 </p>
 
 # Raspberry Pi  
