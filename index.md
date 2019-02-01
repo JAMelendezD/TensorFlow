@@ -16,9 +16,9 @@ This is a trained network to distinguish between cats and dogs from any image. T
 </p>
 
 
-# Visualization<sup>[1](#footnote1)</sup>
+# Visualization
 
-So far we can see that for training on an image database we normally use a deep convolutional neural network were we can also conbine dense layers at the end before the prediction. This method has provided a very effective way to train neural networks, in fact there exists pre-trained nets based on this idea for example the VGG16.
+So far we can see that for training on an image database we normally use a deep convolutional neural network were we can also conbine dense layers at the end before the prediction. This method has provided a very effective way to train neural networks, in fact there exists pre-trained nets based on this idea for example the VGG16<sup>[1](#footnote1)</sup>.
 
 <p align="center">
   <img width="800" src="./media/vgg16.png">
