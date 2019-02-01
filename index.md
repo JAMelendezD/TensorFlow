@@ -70,7 +70,7 @@ When working with neural networks there is always a question in the back of ever
   <img width="800" src="./media/xkcd.png">
 </p>
 
-<sup>[1](#footnote1)</sup>
+<p align="left"><sup>[1](#footnote1)</sup></p>
 
 
 
