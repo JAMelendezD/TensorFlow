@@ -36,6 +36,13 @@ Filters are just an array of numbers that we can visualzie with colors in the sa
   <img width="400" src="./media/featuremap.png">
 </p>
 
+Now instead of one image we have a number of images equal to the number of filters these new images are normally refered as feature-maps. We can also visualize this as being a 3-dimensional set of data.
+
+<p align="center">
+  <img width="400" src="./media/3Dout.png">
+</p>
+
+
 # Raspberry Pi  
 
 The folder CDP consists of a bigger model with cats, dogs and persons. The network was optimized on a gpu with enough parameters so it has a consistent frame rate in a raspberry pi. The main purpose is to run camara.ipynb as a .py file in the raspberry with a webcam. The output is live video that classifies the given input into the categories. (It was trained with persons doing actions such as applauding, writing, etc).  
