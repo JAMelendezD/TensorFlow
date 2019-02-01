@@ -16,7 +16,7 @@ This is a trained network to distinguish between cats and dogs from any image. T
 </p>
 
 
-# Visualization
+# Visualization<sup>[1](#footnote1)</sup>.
 
 So far we can see that for training on an image database we normally use a deep convolutional neural network were we can also conbine dense layers at the end before the prediction. This method has provided a very effective way to train neural networks, in fact there exists pre-trained nets based on this idea for example the VGG16.
 
@@ -64,7 +64,7 @@ We can see the importance of the weights and the sigmoid function in our neural 
 
 # Raspberry Pi  
 
-When working with neural networks there is always a question in the back of everyones mind, How deep can we go? The answer to that question depends on many aspects, in particular computation power and expected results <sup>[1](#footnote1)</sup>.
+When working with neural networks there is always a question in the back of everyones mind, How deep can we go? The answer to that question depends on many aspects, in particular computation power and expected results.
 
 <p align="center">
   <img width="800" src="./media/xkcd.png">
