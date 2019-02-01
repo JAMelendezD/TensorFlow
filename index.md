@@ -21,7 +21,7 @@ This is a trained network to distinguish between cats and dogs from any image. T
 So far we can see that for training on an image database we normally use a deep convolutional neural network were we can also conbine dense layers at the end before the prediction. This method has provided a very effective way to train neural networks, in fact there exists pre-trained nets based on this idea for example the VGG16.
 
 <p align="center">
-  <img width="200" height="200" src="./media/vgg16.jpg">
+  <img width="200" height="200" src="./media/vgg16.png">
 </p>
 
 The purpose of this scripts is to get an introduction into images and openCV to then visualize the process behind convolutional neural networks.
