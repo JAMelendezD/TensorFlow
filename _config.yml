@@ -1,5 +1,5 @@
 theme: jekyll-theme-leap-day
 show_downloads: "true"
-image: ./media/xkcd.png
+featured-image: ./media/xkcd.png
 title:  "Neural Network Basics"
 description: [Jupyter notebooks that use TensorFlow to understand and visualize neural networks with applications in the Raspberry Pi]
