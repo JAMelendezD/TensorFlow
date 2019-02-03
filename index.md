@@ -54,7 +54,7 @@ Now the network is ready to give an answer it takes those final weights and mult
   <img width="800" src="./media/differences.png">
 </p>
 
-finally since it is a binary network we apply the sigmoid function to get our particular result. If we get a result greater than 0.5 the prediction is a cat if it is less that 0.5 then we get a prediction of a dog. 
+Finally since it is a binary network we apply the sigmoid function to get our particular result. If we get a result greater than 0.5 the prediction is a cat if it is less that 0.5 then we get a prediction of a dog. 
 
 <p align="center">
   <img width="700" src="./media/results.png">
